@@ -3,9 +3,9 @@ import {
   View,
   Animated,
   Easing,
-  TouchableOpacity,
-  ViewPropTypes,
+  TouchableOpacity
 } from "react-native";
+import { ViewPropTypes } from 'deprecated-react-native-prop-types';
 import PropTypes from "prop-types";
 import styles from "./Pagination.style";
 
